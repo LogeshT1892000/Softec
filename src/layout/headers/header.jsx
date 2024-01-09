@@ -47,7 +47,7 @@ const Header = () => {
                      <div className="row align-items-start">
                         <div className="col-6">
                            <div className="header-top__link">
-                              <span>Offer <i>is going on till Friday, $2.99/mo. </i></span>
+                              <span>Get <i>a free expert business review. </i></span>
                               <Link href="#">
                                  <svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.40918 9L5.591 5L1.40918 1" stroke="white" strokeWidth="1.5"
@@ -58,7 +58,7 @@ const Header = () => {
                         </div>
                         <div className="col-6">
                            <div className="header-top__support text-end">
-                              <span>Get Support: <Link href="tel:806(000)88899">+806 (000) 888 99</Link></span>
+                              <span>Need help: <Link href="tel:678(123)4567890">+678 (123) 456 7890</Link></span>
                            </div>
                         </div>
                      </div>
@@ -73,16 +73,16 @@ const Header = () => {
                               <Link href="/"><Image  src={logo} alt="" /></Link>
                            </div>
                         </div>
-                        <div className="col-xxl-6 col-xl-5 col-lg-5 d-none d-lg-block">
+                        <div className="col-xxl-7 col-xl-5 col-lg-8 d-none d-lg-block">
                            <div className="header-bottom__main-menu">
                               <nav id="mobile-menu">
                               <NavMenu /> 
                               </nav>
                            </div>
                         </div>
-                        <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-8 col-6">
+                        <div className="col-xxl-3 col-xl-5 col-lg-2 col-md-8 col-6">
                            <div className="header-bottom__right d-flex align-items-center justify-content-end">
-                              <div className="header-bottom__action">
+                              {/* <div className="header-bottom__action">
                                  <a className="d-none d-md-inline-block search-open-btn"
                                     onClick={() => setSearchOpen(true)} > 
                                     <SearchIconTwo />
@@ -91,7 +91,7 @@ const Header = () => {
                                     <UserIcon /> 
                                     <span>Log In</span>
                                  </Link>
-                              </div>
+                              </div> */}
                               <div className="header-bottom__btn d-flex align-items-center">
                                  <Link className="tp-btn-white tp-btn-hover alt-color-black d-none d-md-inline-block" href="/service-details">
                                     <span className="white-text">Get Started</span>

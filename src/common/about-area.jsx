@@ -40,17 +40,16 @@ const about_data =[
 
 // about content
 const about_content = {
-    title: "OVER 150K+ CLIENT",
-    sub_title: "We Offer Real Time Data Solutions", 
-    des: <>Excepteur sint occaecat cupidatat officia non proident <br />
-    sunt in culpa qui deserunt.!</>,
+    title: "EVERY SECOND COUNTS",
+    sub_title: "Elevate Your Digital Commerce", 
+    des: <>Crafting Tomorrow's E-Commerce, Today</>,
 
     about_list: [
-        <>Various analysis options.</>,
-        <>Page Load (time, size, number of requests).</>,
-        <> Big data analysis.</>,
+        <>Tailored digital commerce tools</>,
+        <>Revolutionize your diital commerce</>,
+        <>Big data, comprehensively analyzed</>,
     ],
-    btn_text: "About Us",
+    btn_text: "Explore Solutions",
 
 }
 const {title, sub_title, des, about_list, btn_text}  = about_content

@@ -15,27 +15,30 @@ const feature_data = [
    {
       id: 1,
       img: icon_1,
-      title: <>A Unified View of The Customer</>,
+      title: <>Order Management</>,
+      sub_title: <>From click to doorstep,<br/>MASTERED.</>,
       delay: ".4s",
    },
    {
       id: 2,
       img: icon_2,
-      title: <>Industry Leading Procedures</>,
+      title: <>e-Commerce</>,
+      sub_title: <>Beyond e-commerce, thrive in<br/>COMMERCE.</>,
       delay: ".6s",
    },
    {
       id: 3,
       img: icon_3,
-      title: <>Collaboration Across <br /> All Areas</>,
+      title: <>Omni channel</>,
+      sub_title: <>One journey, endless<br/>POSSIBILITIES.</>,
       delay: ".8s",
    },
 ]
 
 // feature content
 const feature_content = {
-   title: "Our Exciting Features",
-   sub_title: "More than 15,000 companies trust and choose Itech",
+   title: "Next-Gen Retail Ecosystems",
+   sub_title: "Where Orders Meet Excellence",
 }
 const { title, sub_title } = feature_content
 
@@ -55,7 +58,7 @@ const FeatureArea = () => {
                   <div className="col-xl-6 wow tpfadeUpp" data-wow-duration=".9s" data-wow-delay=".2s">
                      <div ref={titleRef} className="tp-feature__section-box tp__title_anime text-center mb-55 tp-title-anim">
                         <h2 className="tp-section-title">{title}</h2>
-                        <p>{sub_title}</p>
+                        <p className="tp-section-sub-title">{sub_title}</p>
                      </div>
                   </div>
                </div>
@@ -68,6 +71,7 @@ const FeatureArea = () => {
                               <Image src={item.img} alt={item.title} />
                            </div>
                            <h3 className="tp-feature__title-sm">{item.title}</h3>
+                           <p>{item.sub_title}</p>
                            <div className="tp-feature__link tp-common-btn">
                               <Link href="/service-details">
                                  <RightArrow />

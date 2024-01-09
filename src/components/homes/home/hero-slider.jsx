@@ -30,8 +30,8 @@ const hero_content = {
             img: shape_2,
         },
     ],
-    hero_title: <><span className='tp_title'><span className='child'>The Leading Customer</span></span> <br />
-        <span><span className='child'>Data Platform</span></span> </>,
+    hero_title: <><span className='tp_title'><span className='child'>Order to omni.</span></span> <br />
+        <span><span className='child'>Your commerce, harmonized.</span></span> </>,
     sub_title: <>We are not going to save your data</>,
     hero_shape_img: [
         {
@@ -111,7 +111,7 @@ const HeroSlider = () => {
                     </div>
                     <div className="container">
                         <div className="row justify-content-center">
-                            <div className="col-xl-10">
+                            <div className="col-xl-12">
                                 <div className="tp-hero__content-box text-center z-index-3">
                                     <div className="tp-hero__title-box p-relative">
                                         <h2 className="tp-hero__hero-title tp-title-anim">

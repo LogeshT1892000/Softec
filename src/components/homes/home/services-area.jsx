@@ -8,12 +8,12 @@ import RightArrow from '@/src/svg/right-arrow';
 import img from "../../../../public/assets/img/service/sv-dashbord.png" 
 
 const service_content = {
-    title: "Explore Our Data Services",
-    sub_title: <>More than 15,000 companies trust and choose Itech</>,
+    title: "Precision-Driven Industry Solutions",
+    sub_title: <>Elevating Business with Focused Expertise</>,
 
     bg_img: "/assets/img/service/sv-bg.jpg",
-    title_2: <>Data Analysis <br /> Tools & Methods</>,
-    des: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
+    title_2: <>Industry-Specific <br /> Solutions</>,
+    des: <>Unlock the potential of your sector with <br /> our specialized analytics.</>,
     btn_text: "Work with Us",
 
     
@@ -31,7 +31,7 @@ const ServicesArea = () => {
                <div className="tp-service__grey-shape grey-bg"></div>
                <div className="container">
                   <div className="row justify-content-center">
-                     <div className="col-lg-8">
+                     <div className="col-lg-10">
                         <div ref={titleRef} className="tp-service__section-box tp__title_anime mb-50 text-center tp-title-anim">
                            <h2 className="tp-section-title">{title}</h2>
                            <p>{sub_title}</p>

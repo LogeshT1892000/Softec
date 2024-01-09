@@ -40,40 +40,49 @@ const  service_data = [
         id: 1,
         icon: img_1,
         img: img_1,
-        title: "AI Data Analysis",
-        description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
+        title: "Retail and e-Commerce",
+        description: <>Boost your online retail business with <br /> our bespoke e-commerce platforms <br />
+                    and analytics tools.</>,
         delay: ".4s",
     },
     {
         id: 2,
         icon: img_2,
         img: img_2,
-        title: "Machine Learning",
-        description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
+        title: "Aviation",
+        description: <>Elevate flight operations with our <br /> 
+                    advanced data analysis and <br />
+                    predictive maintenance systems.
+        </>,
         delay: ".6s",
     },
     {
         id: 3,
         icon: img_3,
         img: img_3,
-        title: "Data Visualization",
-        description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
+        title: "Manufacturing",
+        description: <>Streamline production with our <br /> 
+                    integrated digital solutions designed <br /> 
+                    for modern manufacturing.</>,
         delay: ".7s",
     },
     {
         id: 4,
         icon: img_4,
         img: img_4,
-        title: "Business Intelligence",
-        description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
+        title: "Education",
+        description: <>Enhance learning experiences with our <br /> 
+                    data-driven educational platforms <br/> 
+                    and analytics.</>,
         delay: ".8s",
     },
     {
         id: 5,
         icon: img_5,
         img: img_5,
-        title: "Artificial Intelligence",
-        description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
+        title: "Fashion & Apparel",
+        description: <>Transform your fashion brand with our  <br /> smart inventory and omni-channel <br />
+                    retail solutions.</>,
         delay: ".9s",
     },
 
