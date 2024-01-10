@@ -73,14 +73,14 @@ const Header = () => {
                               <Link href="/"><Image  src={logo} alt="" /></Link>
                            </div>
                         </div>
-                        <div className="col-xxl-7 col-xl-5 col-lg-8 d-none d-lg-block">
+                        <div className="col-xxl-7 col-xl-8 col-lg-8 d-none d-lg-block">
                            <div className="header-bottom__main-menu">
                               <nav id="mobile-menu">
                               <NavMenu /> 
                               </nav>
                            </div>
                         </div>
-                        <div className="col-xxl-3 col-xl-5 col-lg-2 col-md-8 col-6">
+                        <div className="col-xxl-3 col-xl-2 col-lg-2 col-md-8 col-6">
                            <div className="header-bottom__right d-flex align-items-center justify-content-end">
                               {/* <div className="header-bottom__action">
                                  <a className="d-none d-md-inline-block search-open-btn"

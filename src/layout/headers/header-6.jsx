@@ -34,21 +34,21 @@ const HeaderSix = ({ style_2 = false }) => {
                            }
                         </div>
                      </div>
-                     <div className="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">
+                     <div className="col-xxl-8 col-xl-7 col-lg-7 d-none d-lg-block">
                         <div className="header-bottom__main-menu header-bottom__main-menu-4 header-bottom__main-menu-inner">
                            <nav id="mobile-menu">
                               <NavMenu />
                            </nav>
                         </div>
                      </div>
-                     <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
+                     <div className="col-xxl-2 col-xl-3 col-lg-3 col-md-8 col-6">
                         <div className="header-bottom__right d-flex align-items-center justify-content-end">
-                           <div className="header-bottom__action header-bottom__action-4 d-none d-xl-block">
+                           {/* <div className="header-bottom__action header-bottom__action-4 d-none d-xl-block">
                               <Link className="d-none d-lg-inline-block header-bottom__action-2 border-none" href="/register">
                                  <UserIcon />
                                  <span>Log In</span>
                               </Link>
-                           </div>
+                           </div> */}
                            <div className="header-bottom__btn d-flex align-items-center">
                               <Link className={`${style_2 ? 'tp-btn-inner alt-color-orange' : 'tp-btn-white alt-color-black'} tp-btn-hover d-none d-md-inline-block`} href="/service-details">
                                  <span className="white-text">Get Started</span>

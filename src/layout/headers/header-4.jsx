@@ -35,20 +35,20 @@ const HeaderFour = ({style_error}) => {
                               }
                            </div>
                         </div>
-                        <div className="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">
+                        <div className="col-xxl-8 col-xl-7 col-lg-7 d-none d-lg-block">
                            <div className="header-bottom__main-menu header-bottom__main-menu-4">
                               <nav id="mobile-menu">
                                  <NavMenu /> 
                               </nav>
                            </div>
                         </div>
-                        <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
+                        <div className="col-xxl-2 col-xl-3 col-lg-3 col-md-8 col-6">
                            <div className="header-bottom__right d-flex align-items-center justify-content-end"> 
-                              <div className={`header-bottom__action ${style_error ? "" : "header-bottom__action-4"}`}> 
+                              {/* <div className={`header-bottom__action ${style_error ? "" : "header-bottom__action-4"}`}> 
                                  <Link className="d-none d-lg-inline-block header-bottom__action-2 border-none" href="/register">
                                     <span>Log In</span>
                                  </Link>
-                              </div>
+                              </div> */}
                               <div className="header-bottom__btn d-flex align-items-center"> 
                                  <Link className={`tp-btn-yellow ${style_error ? "inner-color alt-color-black" : "alt-color-white"} tp-btn-hover d-none d-md-inline-block`} href="/contact">
                                     <span>Get in Touch</span>
